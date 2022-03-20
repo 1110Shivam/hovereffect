@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+}
+span{
+    transition: all 0.5s;
+    -webkit-text-stroke: 5px #211f1f;
+    font-size: 10rem;
+    text-align: center;
+    letter-spacing: 10px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+    user-select: none;
+}
+span:hover{
+    text-shadow: 10px 10px 0px #00ddfa,
+    15px 15px 0px #00d4fa,
+    20px 20px 0px #04c4ff,
+    25px 25px 0px #04ffff,
+    45px 45px 10px #24192c;
+}
